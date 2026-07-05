@@ -1,0 +1,16 @@
+# Wickra X-Ray
+
+> A free explorer that shows, historically, what only Wickra computes — footprint, order-book heatmap, liquidation map and funding/OI divergence. One data-driven core folds a recorded dataset into render data-models (XrayFrame), in ten languages, deterministic and byte-identical across every binding.
+
+Wickra X-Ray is one data-driven core (`xray-core`): a serde `XraySpec` is folded over a recorded dataset — trades, order-book diffs, funding and open interest — into render data-models (`XrayFrame`), never renderer commands. The frames carry four microstructure panels — footprint (traded volume per price bin, split by aggressor side), order-book heatmap (resting liquidity over a time × price grid), liquidation map (liquidation events clustered by price bin), and funding/OI divergence (funding, open interest and price on one time axis). Because the frame is data, not code, the same output crosses the C ABI and WASM unchanged. The core is exposed as a JSON-over-C-ABI data API (`Xray::command`) in Rust, Python, Node.js, WASM and — over a C ABI — C, C++, C#, Go, Java and R, plus a web front-end (Vue + Canvas) that renders the frames in the browser. Released under the MIT OR Apache-2.0 license.
+
+## Links
+
+- [GitHub](https://github.com/wickra-lib/wickra-xray): Source, issues, and releases.
+- [crates.io](https://crates.io/crates/wickra-xray): Rust crate.
+- [PyPI](https://pypi.org/project/wickra-xray/): Python package.
+- [npm](https://www.npmjs.com/package/wickra-xray): Node package.
+
+## Related
+
+- [Wickra](https://wickra.org): The core streaming-indicator library the panels are built on.
