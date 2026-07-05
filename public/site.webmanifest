@@ -1,0 +1,13 @@
+{
+  "name": "Wickra X-Ray",
+  "short_name": "Wickra X-Ray",
+  "description": "A free explorer for market microstructure — footprint, book heatmap, liquidation map, funding/OI divergence.",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "theme_color": "#0ea5e9",
+  "background_color": "#0e1219",
+  "display": "standalone",
+  "start_url": "/"
+}
