@@ -21,6 +21,13 @@
     "height": 20
   },
   {
+    "alt": "Go module",
+    "href": "https://pkg.go.dev/github.com/wickra-lib/wickra-xray-go",
+    "file": "/badges/go.svg",
+    "width": 85,
+    "height": 20
+  },
+  {
     "alt": "License: MIT OR Apache-2.0",
     "href": "https://github.com/wickra-lib/wickra-xray#license",
     "file": "/badges/license.svg",
