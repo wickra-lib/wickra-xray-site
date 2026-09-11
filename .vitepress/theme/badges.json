@@ -21,6 +21,41 @@
     "height": 20
   },
   {
+    "alt": "GitHub release",
+    "href": "https://github.com/wickra-lib/wickra-xray/releases/latest",
+    "file": "/badges/release.svg",
+    "width": 111,
+    "height": 20
+  },
+  {
+    "alt": "crates.io",
+    "href": "https://crates.io/crates/wickra-xray",
+    "file": "/badges/crates.svg",
+    "width": 119,
+    "height": 20
+  },
+  {
+    "alt": "PyPI",
+    "href": "https://pypi.org/project/wickra-xray/",
+    "file": "/badges/pypi.svg",
+    "width": 95,
+    "height": 20
+  },
+  {
+    "alt": "npm",
+    "href": "https://www.npmjs.com/package/wickra-xray",
+    "file": "/badges/npm.svg",
+    "width": 97,
+    "height": 20
+  },
+  {
+    "alt": "Maven Central",
+    "href": "https://central.sonatype.com/artifact/org.wickra/wickra-xray",
+    "file": "/badges/maven.svg",
+    "width": 153,
+    "height": 20
+  },
+  {
     "alt": "Go module",
     "href": "https://pkg.go.dev/github.com/wickra-lib/wickra-xray-go",
     "file": "/badges/go.svg",
