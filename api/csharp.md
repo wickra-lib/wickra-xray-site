@@ -25,5 +25,5 @@ Targets .NET 8.
 
 ## More
 
-- [NuGet](https://www.nuget.org/packages/WickraXray)
+- [NuGet](https://www.nuget.org/packages/Wickra.Xray)
 - [Source & examples](https://github.com/wickra-lib/wickra-xray/tree/main/examples/csharp)
