@@ -116,7 +116,7 @@ export default defineConfig({
           { text: 'crates.io', link: 'https://crates.io/crates/wickra-xray' },
           { text: 'PyPI', link: 'https://pypi.org/project/wickra-xray/' },
           { text: 'npm', link: 'https://www.npmjs.com/package/wickra-xray' },
-          { text: 'NuGet', link: 'https://www.nuget.org/packages/WickraXray' },
+          { text: 'NuGet', link: 'https://www.nuget.org/packages/Wickra.Xray' },
           { text: 'Maven Central', link: 'https://central.sonatype.com/artifact/org.wickra/wickra-xray' },
           { text: 'Go module', link: 'https://pkg.go.dev/github.com/wickra-lib/wickra-xray-go' },
           { text: 'r-universe', link: 'https://wickra-lib.r-universe.dev' },
