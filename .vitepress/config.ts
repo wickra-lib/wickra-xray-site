@@ -123,7 +123,7 @@ export default defineConfig({
         ],
       },
       {
-        text: 'v0.1.4',
+        text: 'v0.1.5',
         items: [
           { text: 'Release notes', link: 'https://github.com/wickra-lib/wickra-xray/releases' },
           { text: 'Changelog', link: 'https://github.com/wickra-lib/wickra-xray/blob/main/CHANGELOG.md' },
