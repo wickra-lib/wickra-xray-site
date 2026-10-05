@@ -1,11 +1,11 @@
 name: Link check
 
 # External link rot is non-deterministic (third-party sites go down, rate-limit,
-# or move), so this sweep runs weekly, on demand and on pull requests and never fails: lychee
-# runs with continue-on-error on the step, every broken link becomes a warning
-# annotation and a line in the job summary, and main_status lists them. A red
-# run would sit on the newest main commit and read as a broken main. release.yml
-# does not depend on it.
+# or move), so this sweep runs weekly, on demand and on pull requests and never
+# fails: lychee runs with continue-on-error on the step, every broken link
+# becomes a warning annotation and a line in the job summary, and main_status
+# lists them. A red run would sit on the newest main commit and read as a broken
+# main. release.yml does not depend on it.
 on:
   schedule:
     - cron: "0 6 * * 1" # Mondays 06:00 UTC
