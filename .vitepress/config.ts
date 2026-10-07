@@ -92,6 +92,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Web app', link: 'https://xray-web.wickra.org' },
       { text: 'Demo', link: '/demo' },
       { text: 'Live', link: 'https://live.wickra.org' },
       { text: 'Benchmarks', link: '/benchmarks' },

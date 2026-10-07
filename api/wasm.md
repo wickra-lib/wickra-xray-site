@@ -28,4 +28,4 @@ console.log(frame.panels.length, 'panels')
 ## More
 
 - [npm (wickra-xray-wasm)](https://www.npmjs.com/package/wickra-xray-wasm)
-- [Web renderer](https://github.com/wickra-lib/wickra-xray/tree/main/web) · [Source & bindings](https://github.com/wickra-lib/wickra-xray/tree/main/bindings/wasm)
+- [Web renderer](https://github.com/wickra-lib/wickra-xray/tree/main/web) ([live](https://xray-web.wickra.org)) · [Source & bindings](https://github.com/wickra-lib/wickra-xray/tree/main/bindings/wasm)

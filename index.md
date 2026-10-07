@@ -128,7 +128,7 @@ C ABI for C, C++, C#, Go, Java and R.
 
 Build an X-ray from a spec, load a recorded dataset, then pull the frame. The
 `command` API returns the same bytes in every binding — the [web renderer](https://github.com/wickra-lib/wickra-xray/tree/main/web)
-(Vue + Canvas) is just another consumer of these frames.
+(Vue + Canvas, live at [xray-web.wickra.org](https://xray-web.wickra.org)) is just another consumer of these frames.
 
 <InstallTabs :tabs="snippetTabs" />
 
