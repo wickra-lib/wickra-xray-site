@@ -13,4 +13,4 @@ Wickra X-Ray is one data-driven core (`xray-core`): a serde `XraySpec` is folded
 
 ## Related
 
-- [Wickra](https://wickra.org): The core streaming-indicator library the panels are built on.
+- [Wickra](https://wickra.org): The streaming-indicator core of the Wickra family.
