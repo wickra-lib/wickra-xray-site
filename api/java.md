@@ -8,7 +8,7 @@ drive it with `command(json) -> json` — load a dataset, then build a frame.
 <dependency>
   <groupId>org.wickra</groupId>
   <artifactId>wickra-xray</artifactId>
-  <version>0.2.0</version>
+  <version>0.2.1</version>
 </dependency>
 ```
 
